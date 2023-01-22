@@ -1,0 +1,404 @@
+/*
+Theme Name: Nava Wordpress
+Theme URI: http://diplomabd.com
+Author: Shahin Mia
+Author URI: https://www.facebook.com/alimran.shahin
+Description: This is practice theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: navawordpress
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+p, body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    max-width: 100%
+}
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-area{
+    background: url("img/banner-bg.jpg") no-repeat scroll center center;
+    width: 100%;
+    height: 650px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 0;
+    position: relative;
+   
+}
+.header-area:before, .won-boat-area:before{
+    content: "";
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    z-index: -1;
+    
+   
+}
+
+.top-header-area{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin: 65px 0px;
+}
+
+.menu{
+    float: right;
+    margin: 50px 0px;
+}
+.menu ul{list-style: none}
+.menu ul li{float: left}
+.menu ul li:last-child a{
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.menu ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu ul li a:hover{
+    background: #fff;
+    color: #767676;
+    border-color: #AAA;
+    transition: all 0.5s ease 0s;
+}
+.slicknav_menu{
+    display: none;
+}
+.banner-text{
+    padding: 70px 0px;
+
+}
+.banner-text h1, .won-boat-area h1{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0px 0px 15px;
+    
+}
+.banner-text p, .won-boat-area p{
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+.dest-form{
+    display: inline-block;
+    position: relative;
+}
+.dest-form span{
+    right: 21%;
+    top: 34%;
+    position: absolute;
+}
+.dest-form input{
+    text-transform: uppercase;
+    float: left;
+    border: none;
+    letter-spacing: 2px;
+    
+}
+.dest-form input[type="search"]{
+    padding: 20px;
+    width: 450px;
+    height: 56px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.dest-form input[type="submit"]{
+    padding: 20px 20px 20px 50px;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    background: #e7434e;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.dest-form input[type="submit"]:hover{
+    background: rgba(235, 74, 155, 0.91);
+    transition: all 0.5s ease 0s;
+}
+.dest-area .container{
+    position: relative;
+}
+.calculation-bar{
+    width: 1000px;
+    position: absolute;
+    top: -61.5px;
+    left: -20px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(40, 40, 40, 0.4);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(40, 40, 40, 0.4);
+    box-shadow: 0px 0px 40px 10px rgba(40, 40, 40, 0.4);
+    text-align: center;
+}
+.calculation-bar ul{
+    list-style: none;
+}
+.calculation-bar ul li{
+    float: left;
+    
+}
+.calculation-bar ul li{
+    padding: 10px 78px;
+    border-right: 3px solid #ddd;
+    display: inline-block;
+    margin: 20px 0px;
+    
+}
+.calculation-bar p{
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.calculation-bar ul li:last-child{
+    border-right: none;
+}
+.calculation-bottom:before{
+    content: "";
+    display: table;
+    padding-top: 60px;
+}
+.section-title{
+    text-align: center;
+    padding: 60px;
+}
+.section-title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0px 0px 10px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+.col-2{
+    width: 20%;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.dest-area section.content-section-area{
+    padding-top: 75px;
+}
+.col-6{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.col-8{
+    width: 66.4%;
+    float: left;
+    padding: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.top-dest-icon, .feture-price{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: #e7434e;
+    padding: 10px 10px 10px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+}
+.top-dest-icon span{
+    position: absolute;
+    left: 7px;
+    top: 12px;
+}
+.top-dest-location, .feture-location{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff;
+    
+}
+.feture-location .fa-map-marker{
+    padding: 0px 10px 0px 0px;
+}
+.fa-users{
+    padding: 0px 10px;
+}
+.feture-price span{
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+.top-container-box{
+    margin: 0px -15px;
+}
+.section-end{
+    text-align: center;
+    margin: 60px 0px;
+    text-transform: uppercase;
+}
+.section-end a{
+    color: #343434;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 50px;
+    border: 2px solid #bdbdbd;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.won-boat-area{
+    background: url(img/won-boat-bg.jpg) no-repeat scroll center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 450px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 0;
+}
+
+.won-boat-area .container{
+    padding: 80px 0px 50px;
+    
+}
+.won-boat-area a{
+    padding: 30px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #e7434a;
+    border-radius: 10px;
+    margin: 80px 0px 0px;
+}
+.won-boat-area a:hover, .section-end a:hover{
+    background: rgba(235, 74, 155, 0.91);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.footer-area{
+    width: 100%;
+    background: #404040;
+    color: #fff;
+}
+.footer-area .container{
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer-area ul{
+    list-style: none;
+}
+.footer-area ul li{
+    
+}
+.footer-area ul li a{
+    color: #fff;
+    padding: 5px 10px 0px 0px;
+}
+.top-footer-border{
+    background: url(img/footer-border.jpg) repeat-x;
+    height: 5px;
+    top: 0;
+    left: 0;
+}
+.top-location, .feture-boats, .social-bar, .contect{
+    float: left;
+    width: 20%;
+}
+
+.social-bar{
+    width: 40%;
+}
+.footer-area h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+.footer-area input{
+    float: left;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.footer-area input[type="email"]{
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+    color: #717171;
+}
+.footer-area input[type="submit"]{
+    
+    border-radius: 0px 5px 5px 0px;
+    text-transform: uppercase;
+    background: #e7434e;
+}
+.social-bar ul{
+    
+}
+.social-bar ul li{
+    float: left;
+}
+.social-bar ul li a{
+    padding: 21px;
+    margin: 20px 10px;
+    background: #717171;
+    border-radius: 50px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+.social-bar ul li a:hover{
+    background: #e7434e;
+    transition: all 0.5s ease 0s;
+}

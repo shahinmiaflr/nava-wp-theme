@@ -1,0 +1,199 @@
+@media (min-width: 1600px) {
+
+    .top-header-area{
+        width: 90%;
+    }
+    .container {
+        width: 80%;
+    }
+    .calculation-bar{
+        width: 103%;
+    }
+    .calculation-bar ul li{
+        padding: 10px 8.97%;
+    }
+    
+
+}
+@media (min-width: 768px) and (max-width: 959px){
+	.dest-area > .container{
+        margin-top: 50px;
+    }
+	.container, .top-header-area, .calculation-bar{
+        width: 100%;
+        padding: 0px 15px;
+    }
+	.calculation-bar{
+		position: static;
+	}
+	
+    .calculation-bar ul li:nth-child(2n-1) {
+		border-right: 3px solid #ddd;
+    }
+	.calculation-bar ul li{
+        width: 50%;
+        float: left;
+        border-bottom: 0px solid;
+        margin: 20px 0px;  
+		border-right: 0px;
+    }
+    .col-4{
+        width: 50%;
+        
+    }
+	.col-8{
+		width: 100%;
+	}
+    .img-box img{
+        min-height: 100%;
+    }
+   
+	.footer-area .container {
+		display: block;
+	}
+	.top-location, .feture-boats, .social-bar, .contact{
+		width: 50%;
+		padding: 10px 20px;
+	}
+	.social-bar{
+		float: right;
+	}
+	.social-bar ul {
+		display: table;
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 767px) {
+    body{
+        
+    }
+    .container, .top-header-area, .calculation-bar{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .dest-area > .container{
+        margin-top: 50px;
+    }
+    .calculation-bar{
+        position: static;
+    }
+    .calculation-bar ul li{
+        width: 50%;
+        border-right: 0px solid;
+        float: none;
+        padding: 20px 0px; 
+        border-bottom: 3px solid #ddd;
+        margin: 0px;
+    }
+    .calculation-bar ul li:last-child{
+        border: 0px solid;
+    }
+    
+    .calculation-bottom:before{
+        padding-top: 0px;
+    }
+    .slicknav_menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+    }
+    .slicknav_menu a{
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        float: none;
+        margin: 65px 0px 0px 0px;
+    }
+    .banner-text h1, .won-boat-area h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+    .banner-text p, .won-boat-area p{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .dest-form input[type="search"] {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .dest-form span{
+        top: 95px;
+        right: 50%;
+        left: 42px;
+    }
+    .dest-form input{
+        float: none;
+    }
+    .dest-form input[type="submit"]{
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .slicknav_menu{
+        width: 100%;
+    }
+    .col-8, .col-6, .col-4{
+        width: 100%;
+        
+    }
+    .img-box img{
+        min-height: 270px;
+    }
+    .section-end a{
+        padding: 15px;
+    }
+    .top-location, .feture-boats, .social-bar, .contect {
+        float: left;
+        /* width: 20%; */
+        display: block;
+        padding: 10px 15px;
+        width: 100%;
+    }
+    .footer-area .container {
+        display: block;
+    }
+    .contact{
+        padding: 15px;
+    }
+    .social-bar ul {
+    
+        display: table;
+        width: 100%;
+    }
+    .footer-area input[type="email"] {
+        width: 150px;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    
+    .calculation-bar ul li{
+        width: 50%;
+        float: left;
+        border-bottom: 0px solid;
+        margin: 20px 0px;  
+    }
+    .calculation-bar ul li:nth-child(2n-1) {
+    border-right: 3px solid #ddd;
+    }
+    .col-4{
+        width: 50%;
+        
+    }
+    .img-box img{
+        min-height: 100%;
+    }
+    .dest-form span{
+        top: 95px;
+        right: 50%;
+        left: 70px;
+    }
+    .footer-area input[type="email"] {
+    width: 200px;
+    }
+}

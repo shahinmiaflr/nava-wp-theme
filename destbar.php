@@ -1,0 +1,20 @@
+<div class="calculation-bar clearfix">
+                <ul>
+                    <li>
+                        <p>2,300</p>
+                        <span>Destinations</span>
+                    </li>
+                    <li>
+                        <p>1,000</p>
+                        <span>cities</span>
+                    </li>
+                    <li>
+                        <p>35,000</p>
+                        <span>Boats</span>
+                    </li>
+                    <li>
+                        <p>50,000</p>
+                        <span>Sailors</span>
+                    </li>
+                </ul>
+            </div>
